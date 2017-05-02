@@ -1,5 +1,5 @@
 # Format Filesize
-This is a small function to format a BLOB filesize (or any number or filesize) into GB, MB, KB. 
+This is a small function to format a BLOB filesize (or any number or filesize) into GB, MB, KB. Function is written in PLSQL (PL/SQL).
 
 # Function Call
 ```sql
