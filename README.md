@@ -1,2 +1,10 @@
-# format_filesize
-PLSQL function to format a filesize with gb, mb, kb, etc
+# Format Filesize
+This is a small function to format a BLOB filesize (or any number or filesize) into GB, MB, KB. 
+
+# Function Call
+```sql
+select
+	filesize_format(1234567890123) x
+from dual;
+```
+
